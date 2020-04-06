@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1099274567787",
+    "firebase_url": "https://fir-scanqrcheck-sticker.firebaseio.com",
+    "project_id": "fir-scanqrcheck-sticker",
+    "storage_bucket": "fir-scanqrcheck-sticker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099274567787:android:caa0fe8de13653cf9b712e",
+        "android_client_info": {
+          "package_name": "com.example.scanqr_checkresult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099274567787-tqgsc3r4qkaa2ovin0i0cvdsc9i9ja2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.scanqr_checkresult",
+            "certificate_hash": "72570a77e60c47fa0aa9a464c710ab6b8d7cb1a4"
+          }
+        },
+        {
+          "client_id": "1099274567787-05rbm92m6a4gfdn8skbtbipumfm7t6fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkH2zowqeIZbVjTXEBwi-Q61J5s75rhew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099274567787-05rbm92m6a4gfdn8skbtbipumfm7t6fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

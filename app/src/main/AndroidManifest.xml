@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scanqr_checkresult">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User_Login"/>
+        <activity android:name=".ScanQRresult_2PANASONIC" />
+        <activity android:name=".ScanQRresult_1PANASONIC" />
+        <activity android:name=".Main2Activity_PANASONIC" />
+        <activity android:name=".Main_MenuPANASONIC" />
+        <activity android:name=".Main_MenuKCE" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ScanQRresult_2KCE" />
+        <activity android:name=".ScanQRresult_1KCE" />
+        <activity android:name=".Select_Department">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MySevice"
+            android:enabled="true"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

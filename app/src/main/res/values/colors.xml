@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorBtnLogin">#5775B2</color>
+    <color name="colorBackgroundLogin">#C8DEEC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#696969</color>
+    <color name="colorGraySoft">#BEBEBE</color>
+    <color name="colorBackgroundBtnQrLogin">#F9F0DE</color>
+    <color name="colorBtn_Fn_SafetyLocat">#3CB371</color>
+    <color name="colorBtn_Fn_Safety1">#FCB470</color>
+    <color name="colorBtn_Fn_Safety2">#C97676</color>
+    <color name="colorBtn_Fn_Safety3">#9F9F9F</color>
+    <color name="colorBtn_Fn_Safety4">#F2F2A9</color>
+    <color name="colorBtn_Fn_Safety5">#CEF5CE</color>
+    <color name="colorBtn_Fn_Safety6">#FFE4E1</color>
+    <color name="colorBtn_Fn_Safety7">#BBCFFF</color>
+    <color name="colorBtn_Fn_Safety8">#DEB887</color>
+    <color name="colorBtn_Fn_Safety9">#B0E0E6</color>
+    <color name="colorBtn_Fn_Safety10">#DDA0DD</color>
+    <color name="colorBtn_Fn_Safety11">#FFCC66</color>
+    <color name="colorBtn_Fn_Safety12">#8FBC8F</color>
+    <color name="background_fnsafety1">#F3E0CD</color>
+    <color name="background_fnsafety2">#DEB9B9</color>
+    <color name="btn_save">#3A7E74</color>
+    <color name="background_fnsafety3">#C2C2C2</color>
+    <color name="background_fnsafety4">#F6F3D6</color>
+    <color name="background_fnsafety5">#DCEFDC</color>
+    <color name="background_fnsafety6">#F5E1DD</color>
+    <color name="background_fnsafety7">#CEDAF6</color>
+    <color name="button_background_fnsafety7">#BECFF8</color>
+    <color name="background_fnsafety8">#DEC29D</color>
+    <color name="background_fnsafety9">#C2E5E9</color>
+    <color name="background_fnsafety10">#D8BFD8</color>
+    <color name="background_fnsafety11">#FFD580</color>
+    <color name="btn_fnsafety11_1">#ADD8E6</color>
+    <color name="btn_fnsafety11_2">#8FBC8F</color>
+    <color name="btn_fnsafety11_3">#F0F8FF</color>
+    <color name="btn_fnsafety11_4">#FFCCCC</color>
+    <color name="btn_fnsafety11_5">#E6E6FA</color>
+    <color name="background_fnsafety12">#8FBC8F</color>
+    <color name="btn_1_Fn_12">#EEE8D1</color>
+    <color name="btn_2_Fn_12">#C7E4E8</color>
+    <color name="btn_3_Fn_12">#EFE2E6</color>
+    <color name="btn_4_Fn_12">#E1E9A6</color>
+    <color name="btn_5_Fn_12">#C3D3F5</color>
+    <color name="btn_nextpage">#6FA8A0</color>
+    <color name="btn_mainmenu">#B2D6B2</color>
+    <color name="btnProfileActivity">#FFBECFF8</color>
+    <color name="ColorBtn_LogOut">#87AFC7</color>
+    <color name="Forgot_password">#A52A2A</color>
+    <color name="fn_forgotpassword">#D1D0CE</color>
+    <color name="btn_register">#6CB076</color>
+    <color name="background_pink">#FFF0F5</color>
+
+
+
+    //// frameBackground ////
+
+    <color name="frame_background_camera1">#F3E1D5</color>
+    <color name="frame_background_gray1">#D3D3D3</color>
+    <color name="frame_background_mainmenu">#DAF1DE</color>
+    <color name="frame_background_green">#a5c47d</color>
+
+
+
+
+
+</resources>

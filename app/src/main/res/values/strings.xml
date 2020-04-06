@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ScanQR_CheckResult</string>
+
+
+    //// login//////
+    <string name="app_namee">Realtime Database</string>
+    <string name="hint_namee">Full Name</string>
+    <string name="hint_emaill">Email</string>
+    <string name="action_save">Save</string>
+    <string name="name">Name</string>
+    <string name="emaill">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="email">Email</string>
+    <string name="failed_auth">Authentication failed, check your email and password or sign up</string>
+    <string name="login_button">LOGIN</string>
+    <string name="password_length">Password too short, enter minimum 6 characters!</string>
+    <string name="forgot_password_button">Forgot your password?</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="link_to_register">Need to signup Get registere now!</string>
+    <string name="hint_user">Username</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="forgot_password">Forgot password???</string>
+    <string name="forgot_password_msg">We just need your registered Email to send password.</string>
+</resources>

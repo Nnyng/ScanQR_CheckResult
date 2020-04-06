@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".Main2Activity_PANASONIC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="@style/spinnerItemStyle">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/im_back_arrow_pana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_back40" />
+
+                <TextView
+                    android:id="@+id/textToolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:text="ตรวจสอบ QR CODE"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="32dp"
+                    android:theme="@style/MyFont" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/date"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginLeft="220dp"-->
+            <!--            android:layout_marginTop="20dp"-->
+            <!--            android:layout_marginRight="8dp"-->
+            <!--            android:background="@drawable/frame_background_white"-->
+            <!--            android:gravity="center"-->
+            <!--            android:paddingTop="5dp"-->
+            <!--            android:paddingLeft="4dp"-->
+            <!--            android:paddingRight="4dp"-->
+            <!--            android:paddingBottom="5dp"-->
+            <!--            android:text="DATE/TIME"-->
+            <!--            android:textColor="@color/colorBlack"-->
+            <!--            android:textSize="20dp"-->
+            <!--            android:theme="@style/MyFont" />-->
+
+            <TextView
+                android:id="@+id/date_activity_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/frame_background_white"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="5dp"
+                android:text="DATE/TIME"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:id="@+id/tv_ReadResult1_Panasonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/thsarabunnewbold"
+                android:text="กรุณาสแกนคิวอาร์โค้ด"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+
+            <RelativeLayout
+                android:id="@+id/rt_QRScanner1_Panasonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_white">
+
+                <ImageView
+                    android:id="@+id/im_qr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_qrcode50" />
+
+                <TextView
+                    android:id="@+id/textQr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@+id/im_qr1"
+                    android:gravity="center"
+                    android:text="สแกนคิวอาร์โค้ด1"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+
+            <TextView
+                android:id="@+id/tv_ReadResult2_Panasonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="กรุณาสแกนคิวอาร์โค้ด"
+                android:fontFamily="@font/thsarabunnewbold"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="28dp" />
+
+
+            <RelativeLayout
+                android:id="@+id/rt_QRScanner2_Panasonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/frame_background_camera1">
+
+                <ImageView
+                    android:id="@+id/im_qr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_qr_color50" />
+
+                <TextView
+                    android:id="@+id/textQr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@+id/im_qr2"
+                    android:gravity="center"
+                    android:text="สแกนคิวอาร์โค้ด2"
+                    android:textAppearance="@style/MyFont"
+                    android:textColor="@android:color/black"
+                    android:textSize="28dp" />
+
+            </RelativeLayout>
+
+
+
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btnQRScanner2"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginStart="30dp"-->
+            <!--            android:layout_marginEnd="30dp"-->
+            <!--            android:layout_marginTop="30dp"-->
+            <!--            android:layout_gravity="center"-->
+            <!--            android:text="สแกนคิวอาร์โค้ด"-->
+            <!--            android:textSize="28dp" />-->
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/colorBlack"
+                android:textAppearance="@style/MyFont" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_ReadResult3_Panasonic"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:text="กรุณาสแกนคิวอาร์โค้ด"-->
+<!--                android:fontFamily="@font/thsarabunnewbold"-->
+<!--                android:gravity="center"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:textSize="28dp" />-->
+
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rt_QRScanner3_Panasonic"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:background="@drawable/frame_background_scanqr3">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/im_qr3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:scaleType="centerInside"-->
+<!--                    android:src="@drawable/ic_qrcolor3_50" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textQr3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="50dp"-->
+<!--                    android:layout_marginTop="8dp"-->
+<!--                    android:layout_toRightOf="@+id/im_qr3"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="สแกนคิวอาร์โค้ด3"-->
+<!--                    android:textAppearance="@style/MyFont"-->
+<!--                    android:textColor="@android:color/black"-->
+<!--                    android:textSize="28dp" />-->
+
+<!--            </RelativeLayout>-->
+
+
+
+
+<!--            &lt;!&ndash;        <Button&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:id="@+id/btnQRScanner2"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_marginStart="30dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_marginEnd="30dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_marginTop="30dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_gravity="center"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:text="สแกนคิวอาร์โค้ด"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:textSize="28dp" />&ndash;&gt;-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="25dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginRight="25dp"-->
+<!--                android:background="@color/colorBlack"-->
+<!--                android:textAppearance="@style/MyFont" />-->
+
+
+            <TextView
+                android:id="@+id/result_Panasonic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/thsarabunnewbold"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="70dp"/>
+
+            <TextView
+                android:id="@+id/nameDevice_main2_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite"
+                android:theme="@style/MyFont" />
+
+            <TextView
+                android:id="@+id/IMEINumber_main2_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite"
+                android:theme="@style/MyFont" />
+
+            <Button
+                android:id="@+id/btn_save_activity_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite" />
+
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@color/colorWhite"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
